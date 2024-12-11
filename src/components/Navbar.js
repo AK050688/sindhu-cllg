@@ -101,6 +101,7 @@ const Navbar = () => {
             { name: "Admission", path: "/admission" },
             { name: "Details", path: "/details" },
             { name: "Contact Us", path: "/contact-us" },
+            {name:"Dasboard" , path: "/dashboard"}
           ].map((link) => (
             <Button
               key={link.name}

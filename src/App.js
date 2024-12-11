@@ -8,6 +8,8 @@ import Details from "./Pages/Details";
 import Header from "./components/Header";
 import ContactUs from "./Pages/ContactUs";
 import Footer from "./components/Footer";
+import Dashboard from "./Pages/Dashbaord";
+
 function App() {
   return (
     <Router>
@@ -20,6 +22,8 @@ function App() {
         <Route path="/admission" element={<Admission />} />
         <Route path="/details" element={<Details />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+
       </Routes>
       <Footer />
     </Router>
